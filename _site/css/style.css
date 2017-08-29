@@ -287,6 +287,54 @@ span.bold {
   background-image: url("../images/aboutus.jpg");
 }
 
+/* -----Private Kitchen Page------ */
+
+/* --Private-Kitchen-Above-the-fold-- */
+
+.private-kitchen {
+  background-image: url("../images/tresna-bali-private-kitchen-adi-babi-guling.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 30vh;
+}
+.private-kitchen .row .intro {
+  padding: 1% 3%;
+}
+
+.intro p {
+  text-align: justify;
+}
+
+.intro h3 {
+  margin: 0;
+}
+
+.row .intro {
+  width: 46%;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* --Private-Kitchen-Menu Section--*/
+
+.aboutfood {
+  background-image: url("../images/aboutfood.jpg");
+}
+
+.row .half-width a {
+  text-decoration: none;
+}
+
+.row .half-width a:hover {
+  background-color: #7D6D61;
+  border-radius: 10%;
+}
+
+/* --Private-Kitchen-Price Section--*/
+
+
+
+
 
 /* Blog Styles */
 
