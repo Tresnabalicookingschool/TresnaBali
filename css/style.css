@@ -86,10 +86,11 @@ header {
 
 header li {
   list-style: none;
+  line-height: 1.2;
   text-align: center;
   vertical-align: middle;
   display: inline-block;
-  margin: 0 8px;
+  margin: 0 4px;
 }
 
 .active {
@@ -182,7 +183,7 @@ span.bold {
 /* --Cooking-Above-the-fold-- */
 
 .cooking-section {
-  background-image: url("../images/aboutbabigulingcook.jpg");
+  background-image: url("../images/tresna-bali-cooking-class-kitchen.jpg");
   background-size: cover;
   min-height: 100vh;
   padding-top: 30vh;
@@ -292,7 +293,7 @@ span.bold {
 /* --Private-Kitchen-Above-the-fold-- */
 
 .private-kitchen {
-  background-image: url("../images/tresna-bali-private-kitchen-adi-babi-guling.jpg");
+  background-image: url("../images/tresna-bali-private-kitchen-home.jpg");
   background-size: cover;
   min-height: 100vh;
   padding-top: 30vh;
