@@ -203,10 +203,6 @@ span.bold {
 
 /* --Cooking-Above-the-fold-- */
 
-.cooking-school {
-  background-image: url("../images/tresna-bali-cooking-class-kitchen.jpg");
-}
-
 .cooking-school .intro {
   padding: 1% 3%;
   margin-top: 20vh;
@@ -240,19 +236,6 @@ span.bold {
 }
 
 
-/*.aboutfood {
-  background-image: url("../images/aboutfood.jpg");
-}
-
-.row .half-width a {
-  text-decoration: none;
-}
-
-.row .half-width a:hover {
-  background-color: #7D6D61;
-  border-radius: 10%;
-}
-
 /* --Cooking School-About Location Section--*/
 
 /*.aboutgarden {
@@ -269,9 +252,6 @@ span.bold {
 
 /* --Cooking-Class-Above-the-fold-- */
 
-.cooking-class {
-  background-image: url("../images/classabovethefold.jpg");
-}
 .cooking-class .row .intro {
   padding: 1% 3%;
 }
@@ -321,10 +301,6 @@ span.bold {
 
 /* --Private-Kitchen-Above-the-fold-- */
 
-.private-kitchen {
-  background-image: url("../images/tresna-bali-private-kitchen-home.jpg");
-  background-position: center;
-}
 .private-kitchen .row .intro {
   padding: 1% 3%;
 }
