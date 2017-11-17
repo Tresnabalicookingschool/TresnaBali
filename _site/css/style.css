@@ -47,7 +47,8 @@ footer{
   color: white;
 }
 
-.rel {
+.rel,
+section {
   position: relative;
 }
 
@@ -56,7 +57,7 @@ footer{
 }
 
 .blurb {
-  margin: 2%;
+  padding: 5% 5% 5% 10%;
 }
 
 .back-img {
@@ -64,6 +65,14 @@ footer{
   background-repeat: no-repeat;
   background-position: center;
   min-height: 25vh;
+  background-color: rgb(220,220,220);
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding-top: 30vh;
 }
 
 .mobile-show {
@@ -106,10 +115,12 @@ header li {
 .light-bg.active {
   background-color: rgba(255, 255, 255, 1);;
 }
+header {
+  padding: 1% 5%;
+}
 
 header img {
-  margin: 23px;
-  height: 60px;
+  max-width: 250px;
 }
 
 nav {
@@ -117,9 +128,12 @@ nav {
   width: 70%;
   text-align: right;
   vertical-align: top;
-  margin: 4vh 5%;
   position: fixed;
   right: 0;
+}
+
+nav a {
+  padding: 25px 0px;
 }
 nav li a:hover {
   background-color: #334D69;
@@ -157,14 +171,21 @@ span.bold {
 /* --Home-Above-the-fold-- */
 .title-section {
   background-image: url("../images/tresna-bali-cooking-class-homepage.jpg");
-  background-size: cover;
-  min-height: 100vh;
-  padding-top: 20vh;
+}
+
+.title-section h1 {
+  margin:0;
+}
+
+.title-section .center {
+  padding: 30vh 0;
+  color: white;
 }
 
 /* --About Carousel-Section-- */
 
 /* --Carousel-- */
+
 .owl-dots {
   position: absolute;
   right: 10px;
@@ -182,31 +203,42 @@ span.bold {
 
 /* --Cooking-Above-the-fold-- */
 
-.cooking-section {
+.cooking-school {
   background-image: url("../images/tresna-bali-cooking-class-kitchen.jpg");
-  background-size: cover;
-  min-height: 100vh;
-  padding-top: 30vh;
 }
-.cooking-section .row .intro {
+
+.cooking-school .intro {
   padding: 1% 3%;
+  margin-top: 20vh;
+  width: auto;
+  position: absolute;
+  left:10px;
+  right:10px;
+  bottom:10px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
+
 
 .intro p {
   text-align: justify;
+  line-height: 1.2;
 }
 
 .intro h3 {
   margin: 0;
 }
 
-.row .intro {
-  width: 46%;
-  float: center;
-  background-color: rgba(255, 255, 255, 0.7);
-}
 
 /* --Cooking School-About Food Section--*/
+
+.about-food .owl-carousel {
+  padding: 5%;
+}
+
+.about-food .blurb {
+  padding: 10% 5% 5% 10%;
+}
+
 
 /*.aboutfood {
   background-image: url("../images/aboutfood.jpg");
@@ -239,23 +271,20 @@ span.bold {
 
 .cooking-class {
   background-image: url("../images/classabovethefold.jpg");
-  background-size: cover;
-  min-height: 100vh;
-  padding-top: 30vh;
 }
 .cooking-class .row .intro {
   padding: 1% 3%;
 }
 
-.intro p {
+.cooking-class .intro p {
   text-align: justify;
 }
 
-.intro h3 {
+.cooking-class .intro h3 {
   margin: 0;
 }
 
-.row .intro {
+.cooking-class .row .intro {
   width: 46%;
   float: right;
   background-color: rgba(255, 255, 255, 0.7);
@@ -267,20 +296,19 @@ span.bold {
   background-image: url("../images/aboutfood.jpg");
 }
 
-.row .half-width a {
+/*.row .half-width a {
   text-decoration: none;
 }
 
 .row .half-width a:hover {
   background-color: #7D6D61;
   border-radius: 10%;
-}
+}*/
 
 /* --Cooking Class-Price Section--*/
 
 .aboutgarden {
-  background-image: url("../images/aboutgarden.jpg");
-  min-height: 69vw;
+  background-image: ;
 }
 
 /* --Cooking Class-Benefits Section--*/
@@ -295,9 +323,7 @@ span.bold {
 
 .private-kitchen {
   background-image: url("../images/tresna-bali-private-kitchen-home.jpg");
-  background-size: cover;
-  min-height: 100vh;
-  padding-top: 30vh;
+  background-position: center;
 }
 .private-kitchen .row .intro {
   padding: 1% 3%;
@@ -325,7 +351,6 @@ span.bold {
 
 
 
-
 /* Blog Styles */
 
 .post-page {
@@ -344,10 +369,7 @@ span.bold {
 /* --Contact Page-- */
 
 .contact-page {
-  background-image: url("../images/contact.jpg");
-  background-size: cover;
-  height: 100vh;
-  padding-top: 30vh;
+  padding: 10%;
 }
 
 
