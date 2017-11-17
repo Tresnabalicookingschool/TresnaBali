@@ -109,7 +109,7 @@ header li {
 
 header img {
   margin: 23px;
-  height: 91px;
+  height: 60px;
 }
 
 nav {
@@ -117,7 +117,7 @@ nav {
   width: 70%;
   text-align: right;
   vertical-align: top;
-  margin: 5vh 5%;
+  margin: 4vh 5%;
   position: fixed;
   right: 0;
 }
@@ -202,12 +202,13 @@ span.bold {
 
 .row .intro {
   width: 46%;
-  float: right;
+  float: center;
   background-color: rgba(255, 255, 255, 0.7);
 }
 
 /* --Cooking School-About Food Section--*/
-.aboutfood {
+
+/*.aboutfood {
   background-image: url("../images/aboutfood.jpg");
 }
 
@@ -222,13 +223,13 @@ span.bold {
 
 /* --Cooking School-About Location Section--*/
 
-.aboutgarden {
+/*.aboutgarden {
   background-image: url("../images/aboutgarden.jpg");
 }
 
 /* --Cooking School-About Us Section--*/
 
-.aboutus {
+/*.aboutus {
   background-image: url("../images/aboutus.jpg");
 }
 
@@ -312,24 +313,12 @@ span.bold {
 
 .row .intro {
   width: 46%;
-  float: right;
+  float: left;
   background-color: rgba(255, 255, 255, 0.7);
 }
 
 /* --Private-Kitchen-Menu Section--*/
 
-.aboutfood {
-  background-image: url("../images/aboutfood.jpg");
-}
-
-.row .half-width a {
-  text-decoration: none;
-}
-
-.row .half-width a:hover {
-  background-color: #7D6D61;
-  border-radius: 10%;
-}
 
 /* --Private-Kitchen-Price Section--*/
 
