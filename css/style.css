@@ -8,7 +8,7 @@
 /* ----- Universal Style ----- */
 
 body {
-  font-family: 'Raleway', serif;
+  font-family: <link href="https://fonts.googleapis.com/css?family=Karma:300,600" rel="stylesheet">, serif;
   font-size: 1.8rem;
 }
 

@@ -8,7 +8,7 @@
 /* ----- Universal Style ----- */
 
 body {
-  font-family: 'Raleway', serif;
+  font-family: <link href="https://fonts.googleapis.com/css?family=Karma:300,600" rel="stylesheet">, serif;
   font-size: 1.8rem;
 }
 
@@ -348,7 +348,12 @@ span.bold {
   padding: 10%;
 }
 
-
+/* Book Now Page */
+.tall {
+    min-height: 80vh;
+    padding: 5%;
+    padding-top: 130px;
+}
 /* --Footer Section-- */
 
 footer {
@@ -368,6 +373,10 @@ footer .facebook{
   display: inline-block;
   border-radius: 10%;
 }
+
+
+
+
 
 /*---Tablet Styles----*/
 
@@ -408,6 +417,8 @@ footer .facebook{
   }
 
 }
+
+
 
 /*---Small Tablet or Large Phone Styles----*/
 
